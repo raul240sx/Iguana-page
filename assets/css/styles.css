@@ -11,8 +11,8 @@ html, body {
 
 body {
     font-family: Raleway;
-    color: aliceblue;
-    background-color: black;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 header {
@@ -24,12 +24,12 @@ header {
 
 .image1 img {
     float: right;
-    height: 666px;
-    width: 1000px;
+    width: 1280px;
+    height: 727px;
 }
 
 .image1 {
-    height: 666px;
+    height: 727px;
 }
 
 .desc-section {
@@ -44,6 +44,13 @@ header {
     border-radius: 15px;
 }
 
-/*.desc-section p {
-    vertical-align: middle;
+.images >* {
+    display: inline;
+    width: 57px;
+    height: 37px;
+    filter: invert(100%) sepia(8%) saturate(399%) hue-rotate(182deg) brightness(118%) contrast(100%);
+
+
 }
+
+
