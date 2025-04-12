@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Raleway;
+    color: aliceblue;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    font-weight: 300;
+}
+
+    
+
+.image1 img {
+    float: right;
+    height: 666px;
+    width: 1000px;
+}
+
+.image1 {
+    height: 666px;
+}
+
+.desc-section {
+    display: flex;
+    align-items: center;
+}
+
+.desc-section img {
+    width: 600px;
+    height: 400px;
+    margin: 100px;
+    border-radius: 15px;
+}
+
+/*.desc-section p {
+    vertical-align: middle;
+}
