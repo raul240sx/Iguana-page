@@ -7,17 +7,27 @@
 
 html, body {
     height: 100%;
+    width: 1280px;
+    height: 1937px;
+    margin: 0 auto;
 }
 
 body {
     font-family: Raleway;
     color: #ffffff;
+    font-weight: 300;
     background-color: #000000;
 }
 
+header h1 {
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+
 header {
+    height: 73px;
     text-align: center;
-    font-weight: 300;
 }
 
     
@@ -35,22 +45,90 @@ header {
 .desc-section {
     display: flex;
     align-items: center;
+    height: 348px;
 }
 
 .desc-section img {
-    width: 600px;
-    height: 400px;
+    width: 399px;
+    height: 237px;
     margin: 100px;
     border-radius: 15px;
 }
 
-.images >* {
-    display: inline;
-    width: 57px;
-    height: 37px;
+.desc-section p {
+    margin-left: 150px;
+}
+
+.characteristics {
+    height: 348px;
+    background-color: #1E1A13;
+    
+}
+
+.characteristics h2 {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+.images img {
+    display: inline-flex;
+    width: 120px;
+    height: 55px;
     filter: invert(100%) sepia(8%) saturate(399%) hue-rotate(182deg) brightness(118%) contrast(100%);
+    margin-bottom: 18px;
+
+}
+
+.eye {
+    margin-left: 300px;
+}
+
+.peace {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.descriptions p {
+    display: inline;
+}
+
+.eyetext {
+    margin-left: 320px;
+}
+
+.peacetext {
+    margin-left: 205px;
+    margin-right: 178px;
+}
+
+.gallery {
+    text-align: center;
+    height: 348px;
+}
+
+.gallery img {
+    width: 316px;
+    height: 202px;
+    margin-top: 73px;
+}
+
+.img4 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+footer {
+    height: 102px;
+    background-color: #1E1A13;
+    padding-top: 39px;
+    text-align: center;
+}
 
 
+*.foot p {
+    display: inline-flex;
 }
 
 
